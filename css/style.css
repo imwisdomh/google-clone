@@ -18,6 +18,10 @@ body {
     justify-content: end;
 }
 
+.header__list-item {
+    margin-right: 25px;
+}
+
 .main {
     flex: 1;
     display: flex;
@@ -55,11 +59,24 @@ body {
     align-items: center;
 }
 
+.footer__country {
+    margin-left: 25px;
+}
+
 .footer__lists {
     border-top: 1px solid rgba(0, 0, 0, 0.2);
     display: flex;
+    justify-content: space-between;
 }
 
 .footer__list {
     display: flex;
+}
+
+.footer__list:first-child .footer__list-item {
+    margin-left: 25px;
+}
+
+.footer__list:last-child .footer__list-item {
+    margin-right: 25px;
 }
