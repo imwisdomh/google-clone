@@ -17,10 +17,17 @@ body {
 .header__list {
   display: flex;
   justify-content: end;
+  align-items: center;
 }
 
 .header__list-item {
   margin-right: 25px;
+}
+
+.header__avatar {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
 }
 
 .main {
