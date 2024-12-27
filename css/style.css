@@ -110,6 +110,17 @@ body {
   margin-right: 30px;
 }
 
+.header__list-item a,
+.footer__list-item a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.header__list-item a:hover,
+.footer__list-item a:hover {
+  text-decoration: underline;
+}
+
 @media (max-width: 768px) {
   .main__search {
     width: 90%;
