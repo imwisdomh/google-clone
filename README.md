@@ -4,6 +4,7 @@
 Google의 메인 페이지를 클론 코딩하여 HTML, CSS, JavaScript의 기본 지식과 활용 능력을 학습하고 적용한 프로젝트입니다.
 
 ## 데모
+![google-clone](https://github.com/user-attachments/assets/5c2cbb36-b483-48bd-ba10-6ea9586428ed)
 
 ## 주요 기능
 - Google 검색 기능 (GET 요청)
@@ -17,17 +18,19 @@ Google의 메인 페이지를 클론 코딩하여 HTML, CSS, JavaScript의 기�
 - LocalStorage (데이터 저장)
 
 ## 프로젝트 구조
-```plaintext
-google-clone/
-├── css/
-│   ├── dark.css
-│   ├── light.css
-│   ├── reset.css
-│   └── style.css
-├── img/
-│   ├── avatar.png
-│   └── logo.png
-├── js/
-│   └── script.js
-├── index.html
-└── README.md
+```
+google-clone
+├─ README.md
+├─ css
+│  ├─ dark.css
+│  ├─ light.css
+│  ├─ reset.css
+│  └─ style.css
+├─ img
+│  ├─ avatar.png
+│  └─ logo.png
+├─ index.html
+└─ js
+   └─ script.js
+
+```
