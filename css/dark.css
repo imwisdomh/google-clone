@@ -1,0 +1,33 @@
+@media (prefers-color-scheme: dark) {
+  .header {
+    background-color: #1f2125;
+  }
+
+  .main {
+    background-color: #1f2125;
+  }
+
+  .search-form__input {
+    background-color: #4d5157;
+    color: #e8e8e8;
+  }
+
+  .search-form__icon {
+    color: #9aa0a6;
+  }
+
+  .footer {
+    background-color: rgb(23, 23, 23);
+  }
+
+  .footer__container {
+    border-top: 1px solid #313335;
+  }
+
+  .header__link,
+  .footer__country,
+  .footer__link,
+  .footer__settings {
+    color: #e8e8e8;
+  }
+}

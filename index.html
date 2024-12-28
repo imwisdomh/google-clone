@@ -8,13 +8,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/light.css" />
+    <link rel="stylesheet" href="css/dark.css" />
     <title>Google Clone</title>
   </head>
   <body>
     <header class="header">
       <ul class="header__list">
         <li class="header__list-item">
-          <a href="https://mail.google.com/mail">Gmail</a>
+          <a href="https://mail.google.com/mail" class="header__link">Gmail</a>
         </li>
         <li class="header__list-item">
           <img class="header__avatar" src="img/avatar.png" alt="Avatar" />
@@ -23,39 +25,39 @@
       </ul>
     </header>
     <section class="main">
-      <img class="logo" src="img/logo.png" alt="Google" />
+      <img class="main__logo" src="img/logo.png" alt="Google" />
       <div class="search-container">
         <form class="search-form" action="https://www.google.com/search" method="get" onsubmit="this.reset()">
-          <i class="search-icon fa-solid fa-magnifying-glass"></i>
-          <input class="search-input" type="text" name="q" />
+          <i class="search-form__icon fa-solid fa-magnifying-glass"></i>
+          <input class="search-form__input" type="text" name="q" />
         </form>
       </div>
     </section>
     <footer class="footer">
       <div class="footer__country">대한민국</div>
-      <div class="footer__lists">
+      <div class="footer__container">
         <ul class="footer__list">
           <li class="footer__list-item">
-            <a href="https://about.google">Google 정보</a>
+            <a href="https://about.google" class="footer__link">Google 정보</a>
           </li>
           <li class="footer__list-item">
-            <a href="https://ads.google.com">광고</a>
+            <a href="https://ads.google.com" class="footer__link">광고</a>
           </li>
           <li class="footer__list-item">
-            <a href="https://www.google.com/business">비즈니스</a>
+            <a href="https://www.google.com/business" class="footer__link">비즈니스</a>
           </li>
           <li class="footer__list-item">
-            <a href="https://www.google.com/search/howsearchworks">검색의 원리</a>
+            <a href="https://www.google.com/search/howsearchworks" class="footer__link">검색의 원리</a>
           </li>
         </ul>
         <ul class="footer__list">
           <li class="footer__list-item">
-            <a href="https://policies.google.com/privacy">개인정보 처리방침</a>
+            <a href="https://policies.google.com/privacy" class="footer__link">개인정보 처리방침</a>
           </li>
           <li class="footer__list-item">
-            <a href="https://policies.google.com/terms">약관</a>
+            <a href="https://policies.google.com/terms" class="footer__link">약관</a>
           </li>
-          <li class="footer__list-item">설정</li>
+          <li class="footer__list-item footer__settings">설정</li>
         </ul>
       </div>
     </footer>
