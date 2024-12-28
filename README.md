@@ -4,6 +4,7 @@
 Google의 메인 페이지를 클론 코딩하여 HTML, CSS, JavaScript의 기본 지식과 활용 능력을 학습하고 적용한 프로젝트입니다.
 
 ## 데모
+[🔗 데모 페이지 바로가기](https://imwisdomh.github.io/google-clone/) 
 ![google-clone](https://github.com/user-attachments/assets/5c2cbb36-b483-48bd-ba10-6ea9586428ed)
 
 ## 주요 기능
@@ -32,5 +33,4 @@ google-clone
 ├─ index.html
 └─ js
    └─ script.js
-
 ```
