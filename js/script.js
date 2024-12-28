@@ -1,5 +1,12 @@
+const input = document.querySelector('.search__input');
 const avatar = document.querySelector('.header__avatar');
 const avatarChange = document.querySelector('#avatar-change');
+
+window.addEventListener('pageshow', () => {
+  if (input) {
+    input.value = '';
+  }
+});
 
 avatar.addEventListener('click', function () {
   avatarChange.click();
